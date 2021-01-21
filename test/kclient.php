@@ -303,7 +303,6 @@ class KClient
                 $errorCode = $e->getHumanCode();
                 $errorCode = $errorCode ? $errorCode . ' ' : '';
 
-                echo $errorCode . self::ERROR;
                 return;
             }
         }
