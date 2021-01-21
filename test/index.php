@@ -11,4 +11,6 @@ $client->forceRedirectOffer();       // redirect to offer if an offer is chosen
 // $client->debug();              // to enable debug mode and show the errors
 // $client->execute();             // request to api, show the output and continue
 $client->executeAndBreak();     // to stop page execution if there is redirect or some output
+include 'index.html';
+
 ?>
